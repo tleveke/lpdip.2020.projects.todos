@@ -194,6 +194,11 @@ Pour voir l'application, rendez-vous à l'adresse
   - `http://localhost:3100` pour ceux qui sont sous Linux, Mac ou Docker natif Windows
   - `http://[IP VM Docker toolbox]:3100` pour ceux qui sont sous Windows avec Docker toolbox
 
+:bulb: La commande `run` ci-dessus ne prend pas en compte la base de données, pour `run` le projet avec de noueaux arguments, il faut d'abord supprimer l'existant avec la commande suivante, puis vous pourrez relancer avec votre nouvelle commande :
+```bash
+docker rm -f projects.todos
+```
+
 ## Fichiers API
 Pour vous aider à bien débuter j'ai créé une API test que vous pouvez voir consulter sur `http://localhost:3100/api/test`. Cette API est définie dans le fichier suivant : `/server/apis/test.js`.
 
