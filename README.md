@@ -18,7 +18,7 @@ Pour que vous puissiez voir l'ensemble des fonctionnalités en action avant de d
 
 [![Vidéo démo "todos project"](https://img.youtube.com/vi/23y6bNsTqY4/0.jpg)](https://www.youtube.com/watch?v=23y6bNsTqY4)
 
-<a href="https://www.youtube.com/watch?v=23y6bNsTqY4" target="_blank">https://www.youtube.com/watch?v=23y6bNsTqY4</a>
+[https://www.youtube.com/watch?v=23y6bNsTqY4](https://www.youtube.com/watch?v=23y6bNsTqY4)
 
 # Travail déjà effectué
 Puisque nous n'avons pas pu voir tout ce qu'il faut pour créer ce genre d'interface j'ai développé moi-même la partie cliente du projet. **Vous n'aurez donc aucun code à écrire concernant l'interface**.
