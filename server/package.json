@@ -1,0 +1,18 @@
+{
+  "name": "lpdip.2020.projects.todos",
+  "version": "1.0.0",
+  "description": "API used for todos project",
+  "main": "index.js",
+  "author": "Florian Bezagu <florian@bezagu.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "yarn && yarn forever -w index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "forever": "^2.0.0",
+    "fs-extra": "^9.0.0",
+    "lodash": "^4.17.15"
+  }
+}
