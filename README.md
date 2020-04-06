@@ -67,7 +67,7 @@ Aucun paramètre
 ```
 ### Retour
 `Liste créée`, exemple :
-```json
+```js
 {
   "id": <ID de la liste>,
   "label": <Titre de la liste>,
@@ -80,7 +80,7 @@ Aucun paramètre
 `id` = ID de la liste à modifier
 #### Corps de requête
 `Liste à modifier`, exemple :
-```json
+```js
 {
   "id": <ID de la liste>,
   "label": <Titre de la liste>, // Obligatoire
@@ -89,7 +89,7 @@ Aucun paramètre
 ```
 ### Retour
 `Liste modifiée`, exemple :
-```json
+```js
 {
   "id": <ID de la liste>,
   "label": <Titre de la liste>,
@@ -105,7 +105,7 @@ Aucun paramètre
 Aucun corps
 ### Retour
 `Tableau de tâches`, exemple :
-```json
+```js
 [
   {
     "id": <ID de la tâche>,
@@ -122,7 +122,7 @@ Aucun corps
 Aucun paramètre
 #### Corps de requête
 `Tâche à créer`, exemple :
-```json
+```js
 {
   "label": <Titre de la tâche>, // Obligatoire
   "idList": <ID de la liste où est cette tâche>, // Obligatoire
@@ -131,7 +131,7 @@ Aucun paramètre
 ```
 ### Retour
 `Tâche créée`, exemple :
-```json
+```js
 {
   "id": <ID de la tâche>,
   "label": <Titre de la tâche>,
@@ -145,7 +145,7 @@ Aucun paramètre
 `id` = ID de la tâche à modifier
 #### Corps de requête
 `Tâche à modifier`, exemple :
-```json
+```js
 {
   "id": <ID de la tâche>,
   "label": <Titre de la tâche>, // Obligatoire
@@ -155,7 +155,7 @@ Aucun paramètre
 ```
 ### Retour
 `Tâche modifiée`, exemple :
-```json
+```js
 {
   "id": <ID de la tâche>,
   "label": <Titre de la tâche>,
