@@ -15,6 +15,7 @@ Les fonctionnalités sont assez basiques, voici ce qui est possible de faire ave
 
 # Démo
 Pour que vous puissiez voir l'ensemble des fonctionnalités en action avant de développer je vous propose une vidéo d'une version fonctionnelle :
+
 [![Vidéo démo "todos project"](https://img.youtube.com/vi/23y6bNsTqY4/0.jpg)](https://www.youtube.com/watch?v=23y6bNsTqY4)
 
 <a href="https://www.youtube.com/watch?v=23y6bNsTqY4" target="_blank">https://www.youtube.com/watch?v=23y6bNsTqY4</a>
