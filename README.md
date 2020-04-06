@@ -213,5 +213,8 @@ Vous pourrez donc vous inspirer de ce fichier pour créer les APIs demandées da
 # Quel rendu est demandé ?
 Vous devrez me rendre votre travail sur le dépôt Github forké de celui-ci. Pour le code c'est simple, je regarderai le code présent dans votre dépôt. Cependant, je vous laisse la liberté de la forme concernant la base de données, fichiers SQL + explications, système de migrations intégré au projet, image Docker publié sur un registry, etc...
 
+# Pour quand rendre le projet ?
+La date de rendu de ce projet est définie au **maximum** pour le `17/05/2020 à 20h`.
+
 # Des questions ?
 Si vous avez des questions, et il n'y a pas de problèmes à en avoir, je vous demanderai de ne pas me formuler vos questions par email individuellement. Vous allez utiliser les issues de Github, cela permettra de partager l'information entre toute la classe. Rendez-vous donc sur la page suivante pour créer un ticket et poser votre question : [https://github.com/fleebzz/lpdip.2020.projects.todos/issues](https://github.com/fleebzz/lpdip.2020.projects.todos/issues).
