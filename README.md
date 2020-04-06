@@ -42,7 +42,7 @@ Aucun paramètre
 Aucun corps
 ### Retour
 `Tableau de listes`, exemple :
-```json
+```js
 [
   {
     "id": <ID de la liste>,
@@ -58,7 +58,7 @@ Aucun corps
 Aucun paramètre
 #### Corps de requête
 `Liste à créer`, exemple :
-```json
+```js
 {
   "id": <ID de la liste>,
   "label": <Titre de la liste>, // Obligatoire
