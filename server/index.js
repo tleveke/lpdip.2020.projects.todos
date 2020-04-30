@@ -11,7 +11,7 @@ app.use(bodyParser.json())
 
 app.use(`/api`, api);
 
-app.all (`*`, async (req, res, next) => {
+app.all(`*`, async (req, res, next) => {
   if (req.originalUrl.indexOf(`/api`) !== 0) {
     const fileRelativePath = req.originalUrl === `/` ? `/index.html` : req.originalUrl;
     let filePath = path.resolve(__dirname, `../client/dist${fileRelativePath}`);
@@ -24,7 +24,7 @@ app.all (`*`, async (req, res, next) => {
   next();
 });
 
-app.all (`*`, (req, res) => {
+app.all(`*`, (req, res) => {
   res.status(404);
   res.end(`Page not found : ${req.originalUrl}`);
 });
