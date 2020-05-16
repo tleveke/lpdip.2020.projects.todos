@@ -1,7 +1,7 @@
 # Todos project
 Dans le cadre du confinement actuel, il est impossible que vous puissiez mener à bien les projets que vous aviez choisi en début de module. C'est pourquoi je vous ai préparé un projet qui remplacera le vôtre et qui tiendra compte de ce que nous avons pu voir en cours sans vous mettre en diffculté. Cela ne veut pas dire pour autant que vous n'aurez pas à réfléchir je vous rassure...
 
-# Informations pour utliser l'application
+# Informations pour utiliser l'application
 
 Pour utiliser l'application, on utilise Docker, voici les commandes a exécuter :
 
