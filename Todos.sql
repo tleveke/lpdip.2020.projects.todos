@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : db
--- Généré le : sam. 16 mai 2020 à 14:18
+-- Généré le : sam. 16 mai 2020 à 14:32
 -- Version du serveur :  5.7.29
 -- Version de PHP : 7.4.5
 
@@ -40,7 +40,7 @@ CREATE TABLE `List_Task` (
 --
 
 INSERT INTO `List_Task` (`id`, `label`, `description`) VALUES
-(5, 'Jeux Vidéo', 'Liste de jeux à jouer !!\n'),
+(5, 'Sport', 'Liste des sports à faire'),
 (6, 'Courses', 'Liste des courses !');
 
 -- --------------------------------------------------------
@@ -61,12 +61,8 @@ CREATE TABLE `Task` (
 --
 
 INSERT INTO `Task` (`id`, `label`, `idList`, `isDone`) VALUES
-(1, 'Mass Effect', 5, 1),
-(2, 'God of War', 5, 1),
-(9, 'The Last of Us', 5, 1),
-(10, 'Final Fantasy VII', 5, 0),
-(11, 'Batman Arkham', 5, 0),
-(12, 'The Witcher', 5, 0);
+(14, 'Faire du foot', 5, 1),
+(15, 'Faire du basket', 5, 0);
 
 --
 -- Index pour les tables déchargées
@@ -99,7 +95,7 @@ ALTER TABLE `List_Task`
 -- AUTO_INCREMENT pour la table `Task`
 --
 ALTER TABLE `Task`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 
 --
 -- Contraintes pour les tables déchargées
