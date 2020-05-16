@@ -1,17 +1,8 @@
 'use strict';
 
 const express = require(`express`);
-const path = require(`path`);
-const fs = require(`fs-extra`);
 const listsApi = express.Router();
-
-var mysql = require('mysql2');
-var connection = mysql.createConnection({
-    host: '172.17.0.3',
-    database: 'Todos',
-    user: 'root',
-    password: 'root'
-});
+const connection = require('./bdd');
 
 listsApi.get('/', async (req, res) => {
     let sql = 'Select * from List_Task';
