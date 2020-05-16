@@ -3,15 +3,15 @@ Dans le cadre du confinement actuel, il est impossible que vous puissiez mener �
 
 # Informations pour utliser l'application
 
-Pour utiliser l'application, on utilise Docker,voici les commandes a executer :
+Pour utiliser l'application, on utilise Docker, voici les commandes a exécuter :
 
 - docker run -p 3306:3306 --name mysqlServer -e MYSQL_ROOT_PASSWORD=root -d mysql:5
 - docker run --name phpmyadmin --link mysqlServer:db -d -p 3333:80 phpmyadmin/phpmyadmin
 - docker run -it --rm --name projects_todos -v "$PWD":/app -w /app/server --link mysqlServer:db -p 3100:3001 node:13 bash
 
-De plus, il faut exporter la bdd dans (http://localhost:3333/server_import.php) avec le fichier Todos.sql présent à la racine du projet
+De plus, il faut exporter la base de données dans http://localhost:3333/server_import.php avec le fichier Todos.sql présent à la racine du projet
 
-Enfin, executez la commande yarn dev pour utiliser l'application.
+Enfin, exécutez la commande yarn dev pour utiliser l'application.
 
 # Le projet
 Ce projet est fonctionnellement assez simple, il s'agit d'une application de gestion de tâches à faire (todos). Il a la particularité de pouvoir gérer plusieurs listes ayant chacune sons propre ensemble de tâches.
